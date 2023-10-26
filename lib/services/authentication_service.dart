@@ -2,6 +2,7 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:ezytransact/models/user_model.dart';
+import 'package:ezytransact/services/authentication_gate.dart';
 import 'package:ezytransact/widgets/snack_bars.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -34,6 +35,13 @@ class AuthenticationService extends ChangeNotifier {
           'name': name,
           'email': email,
         },
+      );
+      Navigator.pushAndRemoveUntil(
+        context,
+        MaterialPageRoute(
+          builder: (context) => const AuthenticationGate(),
+        ),
+        (route) => false,
       );
       return userCredential;
     } on FirebaseAuthException catch (e) {

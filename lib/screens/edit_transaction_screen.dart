@@ -56,7 +56,7 @@ class _EditTransactionScreenState extends State<EditTransactionScreen> {
                   ),
                   const SizedBox(width: 20),
                   Text(
-                    'Create Transaction',
+                    'Update Transaction',
                     style: TextStyle(
                       color: kDarkSecondaryColor,
                       fontSize: 22,
