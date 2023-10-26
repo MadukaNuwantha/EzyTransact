@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "747177256669",
+    "project_id": "ezytransact-88e1d",
+    "storage_bucket": "ezytransact-88e1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747177256669:android:fcc2df3d5aa85327c19d34",
+        "android_client_info": {
+          "package_name": "com.example.ezytransact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ7v4b0vBmdiuG1TjZhUFxeB1Mn3R6mOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
